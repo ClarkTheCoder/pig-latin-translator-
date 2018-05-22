@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<h2>Pig Patin Translator</h2>
+
+<form action="{% url 'translate' %}">
+  <input type="text" name="originalText"/>
+  <br><br>
+  <input type="submit" value="Translate!"/>
+</form>
+
+<a href="{% url 'about' %}">About</a>
+
+</body>
+</html>
